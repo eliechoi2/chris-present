@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFEE3;
+}
+.login {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.loginimage {
+  width: 15%;
+  display: block;
+  margin:auto;
+  margin-top: -5%;
+}
+.sleepingcat {
+  width: 10%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+.button {
+  border-color: #73557d;
+  border-style: solid;
+  border-radius: 30px;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  padding-right: .8%;
+  padding-left: .8%;
+  background-color: #FFFEE3;
+  border-width: 7px;
+  display: block;
+  margin:auto;
+  margin-top: -3%;
+  margin-left: 52.5%;
+}
+.button:focus {
+  background-color: white;
+  border-color: pink;
+  color: pink;
+}
+.username {
+  position: absolute;
+  z-index: 10;
+  margin-top: 10.5%;
+  font-size: 140%;
+  margin-left: -5.5%;
+  border: none;
+  background-color: #FFFEE3;
+  z-index: 10;
+}
+.password {
+  position: absolute;
+  z-index: 10;
+  margin-top: 13.9%;
+  font-size: 140%;
+  margin-left: -5.4%;
+  border:none;
+  background-color: #FFFEE3;
+}
+input:focus, textarea:focus, select:focus {
+       outline: none;
+}
