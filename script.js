@@ -96,3 +96,6 @@ function previousSongChris() {
     chrisSong.style.display = "block";
   }
 }
+function notes() {
+  
+}
