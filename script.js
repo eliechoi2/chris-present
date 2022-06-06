@@ -141,3 +141,11 @@ function page2(){
     page3.style.display = "none";
   }
 }
+function photos() {
+  var gallery = document.getElementById("gallery");
+  if (gallery.style.display === "none") {
+    gallery.style.display = "block";
+  } else {
+    gallery.style.display = "none";
+  }
+}
