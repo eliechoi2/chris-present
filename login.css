@@ -24,8 +24,8 @@ html, body {
   border-color: #73557d;
   border-style: solid;
   border-radius: 30px;
-  padding-top: .5%;
-  padding-bottom: .5%;
+  padding-top: .2%;
+  padding-bottom: .1%;
   padding-right: .8%;
   padding-left: .8%;
   background-color: #FFFEE3;
@@ -34,6 +34,7 @@ html, body {
   margin:auto;
   margin-top: -3%;
   margin-left: 52.5%;
+  font: 400 1.5em/105% 'Just Another Hand', Helvetica, Sans-serif;
 }
 .button:focus {
   background-color: white;

@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFEE3;
+}
+
+.folder {
+  width: 6%;
+  display:block;
+  margin-left: 2%;
+}
+.folder:hover {
+  background-color: #FFCDCD;
+  border-color: white;
+}
+.spotify {
+  width: 5.6%;
+  display: block;
+  margin-left: 2%;
+  margin-top: 1%;
+  border-color: white;
+}
+.spotify:hover {
+  background-color: #FFCDCD;
+}
+.icons {
+  width: 100%;
+  margin-top: 1%;
+}
+.cat {
+  width: 5%;
+  margin-left: 60%;
+  margin-top: 30%;
+}
+.meow {
+  width:5%;
+  margin-left: 64%;
+  margin-top: 28%;
+  position: absolute;
+}
+.song {
+  width: 20%;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -11.5%;
+}
+.play {
+  position:absolute;
+  width: 3%;
+  z-index: 10;
+  margin-top: -3%;
+  margin-left: 20.9%;
+}
+.nextSong {
+  position:absolute;
+  width: 1.3%;
+  z-index: 10;
+  margin-top: -2.3%;
+  margin-left: 25.3%;
+}
+.previousSong {
+  position:absolute;
+  width:1.3%;
+  z-index: 10;
+  margin-top: -2.3%;
+  margin-left: 18.1%;
+}

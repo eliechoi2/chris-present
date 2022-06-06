@@ -4,11 +4,35 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="home.css">
   <body>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Just+Another+Hand" />
+
+  <div class="icons">
+    <a href="#" onclick="folder()"><img class="folder" id="folder" src="Images\Folder.PNG" alt=""></a>
+    <a href="#" onclick="spotify()"><img class="spotify" id="spotify" src="Images\Spotify.PNG" alt=""></a>
+  </div>
+  <div class="chrisSong" id="chrisSong">
+    <img class="previousSong" src="Images\Previous Song.PNG" alt="" onclick="previousSongChris()">
+    <img class="nextSong" src="Images\Next Song.PNG" alt="" onclick="nextSongChris()">
+    <audio id="audioChris" src="Songs\5 Seconds of Summer - She Looks So Perfect (Audio).mp3"></audio>
+    <img src="Images\Pause.PNG" alt="" class="play" onclick="pauseSongChris()" id="pauseChris">
+    <img src="Images\Play.PNG" alt="" class="play" onclick="playSongChris()" id="playChris">
+    <img src="Images\Chris' Favorite Song.png" alt="" class="song">
+  </div>
+  <div class="eliesSong" id="elieSong">
+    <img class="nextSong" src="Images\Next Song.PNG" alt="" onclick="nextSongElie()">
+    <audio id="audio" src="Songs\Hyuna - Red (빨개요) (Hangul_Rom_Eng Lyrics) Eng sub.mp3"></audio>
+    <img src="Images\Pause.PNG" alt="" class="play" onclick="pauseSong()" id="pause">
+    <img src="Images\Play.PNG" alt="" class="play" onclick="playSong()" id="play">
+    <img src="Images\Elie's Favorite Song.PNG" alt=""  class="song">
+  </div>
 
 
 
+  <img class="meow" id="meow" src="Images\Meow.png" alt="">
+  <img class="cat" onclick="meow()" src="Images\Awake Cat.PNG" alt="">
 
+  <script src="script.js"></script>
   </body>
 </html>
