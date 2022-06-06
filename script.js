@@ -97,5 +97,47 @@ function previousSongChris() {
   }
 }
 function notes() {
-  
+  var notes = document.getElementById("notes");
+  var page1 = document.getElementById("page1");
+  var page2 = document.getElementById("page2");
+  var page3 = document.getElementById("page3");
+  if (notes.style.display === "none") {
+    notes.style.display = "block";
+    page1.style.display = "block";
+    page2.style.display = "none";
+    page3.style.display = "none";
+  } else {
+    notes.style.display = "none";
+    page1.style.display = "none";
+    page2.style.display = "none";
+    page3.style.display = "none";
+  }
+}
+function page1() {
+  var page1 = document.getElementById("page1");
+  var page2 = document.getElementById("page2");
+  var page3 = document.getElementById("page3");
+  if (page2.style.display === "none") {
+    page2.style.display = "block";
+    page1.style.display = "none";
+    page3.style.display = "none";
+  } else {
+    page1.style.display = "none";
+    page2.style.display = "none";
+    page3.style.display = "none";
+  }
+}
+function page2(){
+  var page1 = document.getElementById("page1");
+  var page2 = document.getElementById("page2");
+  var page3 = document.getElementById("page3");
+  if (page3.style.display === "none") {
+    page3.style.display = "block";
+    page1.style.display = "none";
+    page2.style.display = "none";
+  } else {
+    page1.style.display = "none";
+    page2.style.display = "none";
+    page3.style.display = "none";
+  }
 }
