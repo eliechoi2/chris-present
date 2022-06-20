@@ -2,7 +2,7 @@ const button = document.getElementById("button");
 
 button.onclick = function() {
   if (document.getElementById("username").value == "chris" && document.getElementById("password").value == "iloveyou") {
-    document.location = ("home.html");
+    document.location = ("https://chris-present.herokuapp.com/about.html");
   } else {
     alert("Incorrect username/password. Please try again.");
   }
