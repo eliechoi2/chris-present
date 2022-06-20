@@ -13,6 +13,8 @@ function folder() {
 }
 function meow() {
   var meow = document.getElementById("meow");
+  var meowAudio = document.getElementById("meowAudio");
+  audio.play();
   if (meow.style.display === "none") {
     meow.style.display = "block";
   } else {
@@ -150,12 +152,8 @@ function photos() {
   }
 }
 
-
 const cursor = document
     .querySelector(".custom-cursor");
-
-// Adding the animations when the
-// mouse button is clicked
 
 window.addEventListener("mousedown", (event) => {
     if (!cursor.classList.contains("click")) {
@@ -167,7 +165,6 @@ window.addEventListener("mousedown", (event) => {
     }
 });
 
-// Getting the position of the cursor
 window.addEventListener("mousemove", (event) => {
     let x = event.pageX - cursor.offsetWidth / 2,
         y = event.pageY - cursor.offsetHeight / 2;
